@@ -186,19 +186,42 @@ nav.p311-nav {
     font-size: 30px;
   }
   .p311-product-item {
-    overflow: hidden;
-    position: relative;
-    height: 100%;
-    width: 100%;
     background-color: #f9f9f9;
 
-    img {
-      position: absolute;
-      max-width: 300px;
-      top: 15%;
-      left: 15%;
-      object-fit: cover;
-      transform: translateX(-50%);
+    .p311-left-items {
+      position: relative;
+      background-color: #f9f9f9;
+
+      img {
+        padding-top: 30%;
+        max-width: 300px;
+      }
+      a:hover {
+        background-color: black;
+        color: white;
+      }
+      .test {
+        // background-color: white;
+        // color: black;
+        // position: absolute;
+        // top: 62%;
+        // right: 27%;
+        // margin-top: 20px;
+        // border: none;
+        position: absolute;
+        display: inline-block;
+        padding: 10px 30px;
+        background: #fff;
+        color: #000;
+        z-index: 8;
+        top: 55%;
+        right: 20%;
+        font-size: 20px;
+        :hover {
+          background-color: black;
+          color: white;
+        }
+      }
     }
   }
 }

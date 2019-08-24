@@ -160,21 +160,38 @@ nav.p311-nav > ul.nav > li.p311-dropdown-menu:hover > ul > li > a:hover, nav.p31
 }
 
 .p311-discover .p311-product-item {
-  overflow: hidden;
-  position: relative;
-  height: 100%;
-  width: 100%;
   background-color: #f9f9f9;
 }
 
-.p311-discover .p311-product-item img {
-  position: absolute;
+.p311-discover .p311-product-item .p311-left-items {
+  position: relative;
+  background-color: #f9f9f9;
+}
+
+.p311-discover .p311-product-item .p311-left-items img {
+  padding-top: 30%;
   max-width: 300px;
-  top: 15%;
-  left: 15%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+}
+
+.p311-discover .p311-product-item .p311-left-items a:hover {
+  background-color: black;
+  color: white;
+}
+
+.p311-discover .p311-product-item .p311-left-items .test {
+  position: absolute;
+  display: inline-block;
+  padding: 10px 30px;
+  background: #fff;
+  color: #000;
+  z-index: 8;
+  top: 55%;
+  right: 20%;
+  font-size: 20px;
+}
+
+.p311-discover .p311-product-item .p311-left-items .test :hover {
+  background-color: black;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
